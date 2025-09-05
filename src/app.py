@@ -95,7 +95,6 @@ try:
 except SQLAlchemyError as e:
     print(f"Error al crear la tabla: {e}")
 
-
 # Definir modelo (tabla)
 class BookAuthor(Base):
     __tablename__ = 'book_authors'  # nombre de la tabla en la BD
