@@ -157,4 +157,3 @@ df_books = pd.read_sql('SELECT * FROM publishers', con=engine)
 
 # Mostrar el DataFrame
 print(df_books)
-
